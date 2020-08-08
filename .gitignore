@@ -1,33 +1,51 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+#Android generated
+bin
+gen
+lint.xml
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
+#Eclipse
 .project
+.classpath
 .settings
-.springBeans
-.sts4-cache
+.checkstyle
 
-### IntelliJ IDEA ###
+#IntelliJ IDEA
 .idea
-*.iws
 *.iml
 *.ipr
+*.iws
+classes
+gen-external-apklibs
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
+#Netbeans
+nbproject
+build
+manifest.mf
+
+#vi
+*.swp
+
+#other editors
+*.bak
+
+#Maven
+target
+release.properties
+pom.xml.*
+
+#Ant
+build.xml
+ant.properties
+local.properties
+proguard.cfg
+proguard-project.txt
+
+#Other
+.DS_Store
+tmp
+*.tgz
 /dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
-.vscode/
+.pmd
+log/
+*.log
